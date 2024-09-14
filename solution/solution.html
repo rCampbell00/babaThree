@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <title>Baba is You</title>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="./solution.css">
+</head>
+
+<body>
+    <div id="splash">
+        <p>
+            Baba is You is a puzzle game where the aim is to
+            get 'you' onto the winning tile. However, the rules
+            for each level are included in the level space and
+            can be changed as you play, so who 'you' is and what
+            is the winning tile may differ at any point in a level.
+        </p>
+        <p>
+            The main controls of the game are to use wasd to control
+            'you' in the level. Moving into a block of text or any object
+            with the 'push' rule will make the object move in the same direction,
+            if it can. The main view for the game is the top-down view of the level
+            and you can only move in this view. The arrows in the level can be clicked
+            to get a side view of the level, to help see objects on top of each other.
+            the 'q' key can be pressed to go back to top-down view. The 'z' key can be pressed
+            to undo one move, and can be done for the last 200 moves. The 'Escape' key can be used
+            to enter or exit the options menu.
+        </p>
+    </div>
+    <div id="rules">
+    </div>
+    <canvas id="gl-canvas" width="1024" height="1024"></canvas>
+    <script type="module" charset="UTF-8" src="solution.js"></script>
+</body>
+
+</html>
